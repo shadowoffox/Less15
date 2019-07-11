@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/sms_edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/write_number"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/sms_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sms_edit_phone"
+        android:hint="@string/write_text"
+        android:inputType="textMultiLine"
+        />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_below="@id/sms_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"/>
+
+</RelativeLayout>

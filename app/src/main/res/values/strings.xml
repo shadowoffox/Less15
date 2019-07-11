@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lesson15</string>
+    <string name="send">send</string>
+    <string name="write_number">Введите номер</string>
+    <string name="write_text">впишите текст сообщения</string>
+</resources>
